@@ -1,5 +1,5 @@
-import { Cell } from "./cell";
-import { CELLS_COUNT, GRID_SIZE } from "./constants";
+import { Cell } from "./cell.js";
+import { CELLS_COUNT, GRID_SIZE } from "./constants.js";
 
 export class Grid {
     constructor(gridElement) {
